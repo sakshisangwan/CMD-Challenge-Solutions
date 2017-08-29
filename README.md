@@ -76,3 +76,24 @@ Description:
 grep -l 500 *
 
 ```
+
+### Question 8 - Print the relative file paths, one path per line for all filenames that start with "access.log" in the current directory.
+
+Command: 
+
+Description:
+
+```
+ls access.log*
+
+```
+### Question 8 - Print the relative file paths, one path per line for all filenames that start with "access.log" in the current directory.
+
+Command: 
+
+Description:
+
+```
+grep -ro ^[0-9.]*
+
+```
