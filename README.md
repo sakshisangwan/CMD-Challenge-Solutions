@@ -68,11 +68,22 @@ grep "GET" access.log
 
 ### Question 7 - Print all files in the current directory,one per line (not the path, just the filename) that contain the string "500".
 
-Command: 
+Command: [grep](https://linux.die.net/man/1/grep)
 
-Description:
+Description: grep searches the named input FILEs (or standard input if no files are named, or if a single hyphen-minus (-) is given as file name) for lines containing a match to the given PATTERN. By default, grep prints the matching lines.
 
 ```
 grep -l 500 *
+
+```
+
+### Question 8 - Print the relative file paths, one path per line for all filenames that start with "access.log" in the current directory.
+
+Command: [ls](https://linux.die.net/man/1/ls)
+
+Description: List information about the FILEs (the current directory by default)
+
+```
+ls access.log*
 
 ```
